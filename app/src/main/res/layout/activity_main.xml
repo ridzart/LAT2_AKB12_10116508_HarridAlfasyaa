@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/lightBlue">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            >
+            <ImageView
+                android:layout_gravity="top|center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_welcome_logo"
+                />
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textColorHint="#ffffff"
+                android:layout_marginTop="40dp"
+                android:textSize="16dp"
+                android:focusable="true"
+                android:background="@drawable/line"
+                android:paddingBottom="15dp"
+                />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textColorHint="#ffffff"
+                android:layout_marginTop="20dp"
+                android:textSize="16dp"
+                android:background="@drawable/line"
+                android:paddingBottom="15dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="LOGIN"
+                android:textColor="@color/background"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OR"
+                android:textColor="@color/background"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@mipmap/ic_welcome_fb_login"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONNECT WITH FACEBOOK"
+                    android:textColor="@color/background"
+                    android:textSize="18dp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/daftar"
+                android:textColor="@color/background"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

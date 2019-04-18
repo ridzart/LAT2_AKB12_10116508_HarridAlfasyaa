@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:text="@string/sva1"
+                android:paddingBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:textColor="#ffffff"
+                android:text="@string/sva2"/>
+
+            <EditText
+            android:id="@+id/verificationCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter verification code here..."
+            android:gravity="center"
+            android:textColorHint="#ffffff"
+            android:layout_marginTop="60dp"
+            android:textSize="16dp"
+            android:focusable="true"
+            android:background="@drawable/line"
+            android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:paddingBottom="5dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/send"
+                android:text="@string/send"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:background="@drawable/button"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:paddingBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="#ffffff"
+                android:text="@string/sva3"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

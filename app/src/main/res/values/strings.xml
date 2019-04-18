@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">LAT2_AKB12_10116508_HarridAlfasya</string>
+    <string name="daftar">doesn\'t have account? <b>Register</b></string>
+    <string-array name="goldar">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+
+    <string-array name="rh">
+        <item>Rhesus</item>
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="job">
+        <item>Job</item>
+        <item>Dosen</item>
+        <item>Pemain Mobalejen</item>
+        <item>Dota Player</item>
+        <item>Kang Nasgor</item>
+    </string-array>
+    <string name="numBloodGive">70</string>
+    <string name="bloodGive">BLOOD GIVE</string>
+    <string name="almost">Almost There</string>
+    <string name="Ty">Thank you for registering with us. One more</string>
+    <string name="step">step, you need to check your email</string>
+    <string name="to">to active your account</string>
+    <string name="verify">VERIFY</string>
+    <string name="sva1">Verify your Account</string>
+    <string name="sva2">we have send verification code to your email</string>
+    <string name="send">SEND</string>
+    <string name="sva3">doesn\'t get code? <b>Resend</b></string>
+    <string name="myName">Harrid Alfasya</string>
+    <string name="myBloodType">Blood Type : AB</string>
+</resources>
